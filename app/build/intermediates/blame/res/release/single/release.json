@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/release/xml_voice_trigger.xml.flat",
+        "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/xml/voice_trigger.xml"
+    },
+    {
+        "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/release/drawable-hdpi_ic_glass_logo.png.flat",
+        "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/drawable-hdpi/ic_glass_logo.png"
+    },
+    {
+        "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/release/drawable-hdpi_ic_stop.png.flat",
+        "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/drawable-hdpi/ic_stop.png"
+    },
+    {
+        "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    }
+]
