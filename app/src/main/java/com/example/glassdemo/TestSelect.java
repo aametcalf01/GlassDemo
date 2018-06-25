@@ -23,9 +23,9 @@ public class TestSelect extends Activity{
 
     //Index of cards
     static final int TIMER = 0;
-    static final int BARCODE = 1;
-    static final int CAMERA = 2;
-    static final int VOICE = 3;
+    static final int CAMERA = 1;
+    static final int VOICE = 2;
+    static final int BARCODE = 3;
 
     private CardScrollAdapter mAdapter;
     private CardScrollView mCardScroller;
@@ -53,11 +53,6 @@ public class TestSelect extends Activity{
                 .setFootnote(R.string.test_select_footnote)
                 .setIcon(R.drawable.timer));
 
-        cards.add(BARCODE, new CardBuilder(context, CardBuilder.Layout.COLUMNS)
-                .setText("Barcode Reader Test")
-                .setFootnote(R.string.test_select_footnote)
-                .setIcon(R.drawable.barcode));
-
         cards.add(CAMERA, new CardBuilder(context, CardBuilder.Layout.COLUMNS)
                 .setText("Camera Test")
                 .setFootnote(R.string.test_select_footnote)
@@ -67,6 +62,11 @@ public class TestSelect extends Activity{
                 .setText("Voice Recognition Test")
                 .setFootnote(R.string.test_select_footnote)
                 .setIcon(R.drawable.voice));
+
+        cards.add(BARCODE, new CardBuilder(context, CardBuilder.Layout.COLUMNS)
+                .setText("Barcode Reader Test")
+                .setFootnote(R.string.test_select_footnote)
+                .setIcon(R.drawable.barcode));
 
         return cards;
     }
@@ -96,14 +96,14 @@ public class TestSelect extends Activity{
                     case TIMER:
                         startActivity(new Intent(TestSelect.this, TaskTimer.class));
                         break;
-                    case BARCODE:
-                        startActivity(new Intent(TestSelect.this,MainActivity.class));
-                        break;
                     case CAMERA:
                         startActivity(new Intent(TestSelect.this, TaskCamera.class));
                         break;
                     case VOICE:
                         startActivity(new Intent(TestSelect.this, TaskVoice.class));
+                        break;
+                    case BARCODE:
+                        startActivity(new Intent(TestSelect.this,MainActivity.class));
                         break;
                     default:
                         soundEffect = Sounds.ERROR;
