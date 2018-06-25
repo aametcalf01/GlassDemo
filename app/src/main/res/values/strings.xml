@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Glass Demo</string>
+    <string name="title_activity_main">Glass Demo</string>
+
+
+    <!-- Title slide-->
+    <string name="title_text">Glass Demo App</string>
+    <string name="title_footnote">Tap to begin</string>
+
+    <!--TestSelect strings-->
+    <string name="test_select_footnote"><font color='red'>Swipe to change test</font></string>
+
+    <!--TaskVoice strings-->
+    <string name="voice_menu_explanation">Voice menu demo - say \"okay glass\" to activate.</string>
+
+    <!--TaskCamera strings-->
+    <string name="camera_instructins">Camera demo - say \"okay glass\", then \"take a picture.\"</string>
+
+</resources>
