@@ -1,4 +1,4 @@
-#Mon Jun 25 11:42:58 EDT 2018
+#Tue Jun 26 14:41:36 EDT 2018
 base.0=/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

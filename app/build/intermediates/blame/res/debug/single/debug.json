@@ -48,6 +48,10 @@
         "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/debug/menu_timer_intro_menu.xml.flat",
+        "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/menu/timer_intro_menu.xml"
+    },
+    {
         "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },

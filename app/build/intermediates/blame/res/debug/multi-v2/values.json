@@ -11,28 +11,26 @@
                         "startOffsets": "-1"
                     },
                     "to": {
-                        "startLines": "10",
+                        "startLines": "11",
                         "startColumns": "4",
-                        "startOffsets": "617",
+                        "startOffsets": "715",
                         "endColumns": "65",
-                        "endOffsets": "678"
+                        "endOffsets": "776"
                     }
                 },
                 {
                     "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "-1,16,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,4,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,547,-1,-1,-1,-1,-1",
-                        "endColumns": "-1,105,-1,-1,-1,-1,-1",
-                        "endOffsets": "-1,648,-1,-1,-1,-1,-1"
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
-                        "startLines": "3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "98,146,252,347,406,462,516",
-                        "endColumns": "47,105,94,58,55,53,100",
-                        "endOffsets": "141,247,342,401,457,511,612"
+                        "startLines": "3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "98,146,244,350,445,504,560,614",
+                        "endColumns": "47,97,105,94,58,55,53,100",
+                        "endOffsets": "141,239,345,440,499,555,609,710"
                     }
                 },
                 {

@@ -16,4 +16,8 @@
     <!--TaskCamera strings-->
     <string name="camera_instructins">Camera demo - say \"okay glass\", then \"take a picture.\"</string>
 
+
+    <!--TimerIntro strings-->
+    <string name="begin_timer_demo">Tap or say \"okay glass\" > \"start task\" to start.</string>
+
 </resources>

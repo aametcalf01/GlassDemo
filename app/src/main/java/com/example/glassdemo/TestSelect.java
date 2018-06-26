@@ -94,7 +94,7 @@ public class TestSelect extends Activity{
                 int soundEffect = Sounds.TAP;
                 switch (position){
                     case TIMER:
-                        startActivity(new Intent(TestSelect.this, TaskTimer.class));
+                        startActivity(new Intent(TestSelect.this, TimerIntro.class));
                         break;
                     case CAMERA:
                         startActivity(new Intent(TestSelect.this, TaskCamera.class));

@@ -40,25 +40,28 @@ public final class R {
     public static final int menu_utility=0x7f030008;
     public static final int menu_vehicles=0x7f030009;
     public static final int menu_vertical=0x7f03000a;
+    public static final int to_timer_menu=0x7f03000b;
   }
   public static final class layout {
     public static final int timer=0x7f040000;
   }
   public static final class menu {
     public static final int camera_menu=0x7f050000;
-    public static final int voice_menu=0x7f050001;
+    public static final int timer_intro_menu=0x7f050001;
+    public static final int voice_menu=0x7f050002;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f060000;
   }
   public static final class string {
     public static final int app_name=0x7f070000;
-    public static final int camera_instructins=0x7f070001;
-    public static final int test_select_footnote=0x7f070002;
-    public static final int title_activity_main=0x7f070003;
-    public static final int title_footnote=0x7f070004;
-    public static final int title_text=0x7f070005;
-    public static final int voice_menu_explanation=0x7f070006;
+    public static final int begin_timer_demo=0x7f070001;
+    public static final int camera_instructins=0x7f070002;
+    public static final int test_select_footnote=0x7f070003;
+    public static final int title_activity_main=0x7f070004;
+    public static final int title_footnote=0x7f070005;
+    public static final int title_text=0x7f070006;
+    public static final int voice_menu_explanation=0x7f070007;
   }
   public static final class style {
     public static final int AppTheme=0x7f080000;
