@@ -44,6 +44,10 @@
         "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/drawable-hdpi/scissor.png"
     },
     {
+        "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/debug/layout_main_timer.xml.flat",
+        "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/layout/main_timer.xml"
+    },
+    {
         "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },

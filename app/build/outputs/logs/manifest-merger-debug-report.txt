@@ -1,23 +1,23 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:1-48:12
+ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:1-51:12
 	package
 		ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:2:1-32
 		INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:1-48:12
+		ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:1-51:12
 		INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:1-48:12
+		ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:1-51:12
 		INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:1:11-69
@@ -26,7 +26,7 @@ ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidMani
 	android:name
 		ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:5:22-84
 application
-ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:6:1-46:15
+ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:6:1-49:15
 	android:supportsRtl
 		ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:10:5-31
 	android:label
@@ -105,6 +105,12 @@ ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidMani
 		ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:44:9-32
 	android:name
 		ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:43:15-41
+activity#com.example.glassdemo.MainTimer
+ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:46:5-47:34
+	android:exported
+		ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:47:9-32
+	android:name
+		ADDED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml:46:15-40
 uses-sdk
 INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/AndroidManifest.xml

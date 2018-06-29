@@ -60,7 +60,7 @@ public class TimerIntro extends Activity {
             System.out.println("*********in onMenuItemSelect");
             switch (item.getItemId()) {
                 case R.id.to_timer_menu:
-                    startActivity(new Intent(TimerIntro.this, MainActivity.class));
+                    startActivity(new Intent(TimerIntro.this, MainTimer.class));
                     break;
 
                 default: return true;  // No change.
@@ -101,7 +101,7 @@ public class TimerIntro extends Activity {
                 switch (position){
                     case MAIN_CARD:
                         soundEffect = Sounds.SELECTED;
-                        startActivity(new Intent(TimerIntro.this, MainActivity.class));
+                        startActivity(new Intent(TimerIntro.this, MainTimer.class));
                         break;
                     default:
                         soundEffect = Sounds.ERROR;

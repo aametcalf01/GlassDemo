@@ -43,6 +43,9 @@ package="com.example.glassdemo">
     <activity android:name=".TimerIntro"
         android:exported="true"/>
 
+    <activity android:name=".MainTimer"
+        android:exported="true"/>
+
 </application>
 
 </manifest>

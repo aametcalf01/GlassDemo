@@ -3,14 +3,22 @@ package com.example.glassdemo;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.WindowManager;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.widget.TextView;
+import android.os.Handler;
 
 import com.google.android.glass.touchpad.Gesture;
 import com.google.android.glass.touchpad.GestureDetector;
+
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+import java.util.concurrent.TimeUnit;
+
+import static java.lang.Math.floor;
 
 
 public class TaskTimer extends Activity
@@ -25,8 +33,21 @@ public class TaskTimer extends Activity
     private boolean Save = false;
     private double startTime;
     private double endTime;
-    private double totalTime;
+    private String totalTime;
 
+
+    Handler handler = new Handler();
+    private Runnable runnableCode = new Runnable() {
+        @Override
+        public void run() {
+            totalTime = getTime(startTime);
+            //String totalTimeStr = String.valueOf(totalTime);
+            mTimerDisplay.setText(totalTime);
+            Log.d("Handlers", "Called on main thread");
+            // Repeat this the same runnable code block again another 2 seconds
+            handler.postDelayed(runnableCode, 20);
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -54,29 +75,31 @@ public class TaskTimer extends Activity
     public boolean onGenericMotionEvent(MotionEvent event) {
         return mGestureDetector.onMotionEvent(event);
     }
-
     @Override
     public boolean onGesture(Gesture gesture){
         if(gesture ==Gesture.TAP && !Begin){
             startTime = System.currentTimeMillis();
             Begin = true;
             mTimerActions.setText("(Tap to stop test)");
-            mTimerDisplay.setText("Testing");
-
-            Animation anim = new AlphaAnimation(0.0f, 1.0f);
-            anim.setDuration(200); //You can manage the time of the blink with this parameter
-            anim.setStartOffset(20);
-            anim.setRepeatMode(Animation.REVERSE);
-            anim.setRepeatCount(Animation.INFINITE);
-            mTimerDisplay.startAnimation(anim);
+            //mTimerDisplay.setText("Testing");
+            handler.post(runnableCode);
+//            Animation anim = new AlphaAnimation(0.0f, 1.0f);
+//            anim.setDuration(200); //You can manage the time of the blink with this parameter
+//            anim.setStartOffset(20);
+//            anim.setRepeatMode(Animation.REVERSE);
+//            anim.setRepeatCount(Animation.INFINITE);
+//            mTimerDisplay.startAnimation(anim);
             return true;
         }
         else if(gesture == Gesture.TAP && Begin && !Stop){
-            endTime = System.currentTimeMillis();
-            totalTime = (endTime-startTime)/1000.0;
+
+            //endTime = System.currentTimeMillis();
+            //totalTime = (endTime-startTime)/1000.0;
+            totalTime = getTime(startTime);
             String totalTimeStr = String.valueOf(totalTime);
             Stop = true;
-            mTimerDisplay.clearAnimation();
+            //mTimerDisplay.clearAnimation();
+            handler.removeCallbacks(runnableCode);
             mTimerActions.setText("(Tap to save result, swipe to start over.)");
             mTimerDisplay.setText(totalTimeStr+" Seconds");
             return true;
@@ -106,4 +129,16 @@ public class TaskTimer extends Activity
     public void onFingerCountChanged(int i, int i1) {
 
     }
+
+    public String getTime(double sTime){
+
+        double eTime = System.currentTimeMillis();
+        double milliseconds = eTime - sTime;
+        String totalTime = String.format("%02d:%02d:%02d",
+                TimeUnit.MILLISECONDS.toHours((long) milliseconds)% 24,
+                TimeUnit.MILLISECONDS.toMinutes((long) milliseconds) % 60,
+                TimeUnit.MILLISECONDS.toSeconds((long) milliseconds)%60);
+        return totalTime;
+    }
+
 }

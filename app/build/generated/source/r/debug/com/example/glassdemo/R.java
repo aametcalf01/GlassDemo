@@ -10,6 +10,11 @@ package com.example.glassdemo;
 public final class R {
   public static final class dimen {
     public static final int card_margin=0x7f010000;
+    public static final int glass_card_body_height=0x7f010001;
+    public static final int glass_card_footer_margin=0x7f010002;
+    public static final int glass_card_left_column_width=0x7f010003;
+    public static final int glass_card_margin=0x7f010004;
+    public static final int glass_card_two_column_margin=0x7f010005;
   }
   public static final class drawable {
     public static final int barcode=0x7f020000;
@@ -29,21 +34,35 @@ public final class R {
     public static final int voice=0x7f02000e;
   }
   public static final class id {
-    public static final int TimerActions=0x7f030000;
-    public static final int TimerDisplay=0x7f030001;
-    public static final int TimerHeader=0x7f030002;
-    public static final int menu_carrier=0x7f030003;
-    public static final int menu_electric_boom=0x7f030004;
-    public static final int menu_engine_powered_boom=0x7f030005;
-    public static final int menu_lifts=0x7f030006;
-    public static final int menu_scissor=0x7f030007;
-    public static final int menu_utility=0x7f030008;
-    public static final int menu_vehicles=0x7f030009;
-    public static final int menu_vertical=0x7f03000a;
-    public static final int to_timer_menu=0x7f03000b;
+    public static final int Instructions=0x7f030000;
+    public static final int TaskHeader=0x7f030001;
+    public static final int Time1=0x7f030002;
+    public static final int Time2=0x7f030003;
+    public static final int Time3=0x7f030004;
+    public static final int Time4=0x7f030005;
+    public static final int Time5=0x7f030006;
+    public static final int Time6=0x7f030007;
+    public static final int Timer=0x7f030008;
+    public static final int TimerActions=0x7f030009;
+    public static final int TimerDisplay=0x7f03000a;
+    public static final int TimerHeader=0x7f03000b;
+    public static final int footer=0x7f03000c;
+    public static final int footer_container=0x7f03000d;
+    public static final int left_column=0x7f03000e;
+    public static final int menu_carrier=0x7f03000f;
+    public static final int menu_electric_boom=0x7f030010;
+    public static final int menu_engine_powered_boom=0x7f030011;
+    public static final int menu_lifts=0x7f030012;
+    public static final int menu_scissor=0x7f030013;
+    public static final int menu_utility=0x7f030014;
+    public static final int menu_vehicles=0x7f030015;
+    public static final int menu_vertical=0x7f030016;
+    public static final int timestamp=0x7f030017;
+    public static final int to_timer_menu=0x7f030018;
   }
   public static final class layout {
-    public static final int timer=0x7f040000;
+    public static final int main_timer=0x7f040000;
+    public static final int timer=0x7f040001;
   }
   public static final class menu {
     public static final int camera_menu=0x7f050000;
