@@ -15,8 +15,10 @@ public final class R {
     public static final int glass_card_left_column_width=0x7f010003;
     public static final int glass_card_margin=0x7f010004;
     public static final int glass_card_two_column_margin=0x7f010005;
-    public static final int left_margin=0x7f010006;
-    public static final int right_margin=0x7f010007;
+    public static final int inter_card_margin=0x7f010006;
+    public static final int left_margin=0x7f010007;
+    public static final int right_margin=0x7f010008;
+    public static final int top_card_margin=0x7f010009;
   }
   public static final class drawable {
     public static final int barcode=0x7f020000;
@@ -99,13 +101,17 @@ public final class R {
   }
   public static final class string {
     public static final int app_name=0x7f070000;
-    public static final int begin_timer_demo=0x7f070001;
-    public static final int camera_instructins=0x7f070002;
-    public static final int test_select_footnote=0x7f070003;
-    public static final int title_activity_main=0x7f070004;
-    public static final int title_footnote=0x7f070005;
-    public static final int title_text=0x7f070006;
-    public static final int voice_menu_explanation=0x7f070007;
+    public static final int begin_timer=0x7f070001;
+    public static final int begin_timer_demo=0x7f070002;
+    public static final int camera_instructins=0x7f070003;
+    public static final int next_task=0x7f070004;
+    public static final int show_results=0x7f070005;
+    public static final int stop_timer=0x7f070006;
+    public static final int test_select_footnote=0x7f070007;
+    public static final int title_activity_main=0x7f070008;
+    public static final int title_footnote=0x7f070009;
+    public static final int title_text=0x7f07000a;
+    public static final int voice_menu_explanation=0x7f07000b;
   }
   public static final class style {
     public static final int AppTheme=0x7f080000;

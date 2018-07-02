@@ -9,24 +9,29 @@
         android:id="@+id/left_column"
         android:layout_width="@dimen/glass_card_left_column_width"
         android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/left_margin"
         >
 
         <!-- Put widgets for the left column inside this RelativeLayout. -->
         <TextView
             android:id="@+id/TaskHeader"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_card_margin"
+            android:gravity="center"/>
 
         <TextView
             android:id="@+id/Timer"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:layout_below="@+id/TaskHeader"/>
         <TextView
             android:id="@+id/Instructions"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/Timer"/>
+            android:layout_below="@+id/Timer" />
     </RelativeLayout>
 
     <RelativeLayout

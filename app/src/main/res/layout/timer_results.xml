@@ -5,7 +5,9 @@
     android:stretchColumns="1">
     <TableRow>
         <TextView
+            android:layout_width="match_parent"
             android:id="@+id/table_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
             android:gravity="center" />
     </TableRow>
     <TableRow>

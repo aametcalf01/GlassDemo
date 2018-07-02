@@ -18,6 +18,40 @@
 
 
     <!--TimerIntro strings-->
-    <string name="begin_timer_demo">Tap or say \"okay glass\" > \"start task\" to start.</string>
+    <string name="begin_timer_demo"><font color='yellow'>TAP</font>
+        , or say
+        <font color='yellow'>\"OKAY GLASS\"</font>
+        >
+        <font color='yellow'>\"START TASK\"</font>
+        to begin timer test.</string>
+
+    <!--MainTimer strings-->
+    <string name="begin_timer"><font color='yellow'>TAP</font>
+        , or say
+        <font color='yellow'>\"OKAY GLASS\"</font>
+        >
+        <font color='yellow'>\"START TIMER\"</font>
+        to begin timer.</string>
+
+    <string name="stop_timer"><font color='yellow'>TAP</font>
+        , or say
+        <font color='yellow'>\"OKAY GLASS\"</font>
+        >
+        <font color='yellow'>\"STOP TIMER\"</font>
+        to stop timer.</string>
+
+    <string name="next_task"><font color='yellow'>TAP</font>
+        , or say
+        <font color='yellow'>\"OKAY GLASS\"</font>
+        >
+        <font color='yellow'>\"NEXT TASK\"</font>
+        to proceed to the next task.</string>
+
+    <string name="show_results"><font color='yellow'>TAP</font>
+        , or say
+        <font color='yellow'>\"OKAY GLASS\"</font>
+        >
+        <font color='yellow'>\"SHOW TEST RESULTS\"</font>
+        to show the overall results. </string>
 
 </resources>

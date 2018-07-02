@@ -111,7 +111,7 @@ public class MainTimer extends Activity
 
         mTaskHeader1.setText("Task "+ String.valueOf(taskNum));
         mTimer1.setText("00:00:00");
-        mInstructions1.setText("Tap or say \"okay glass\" > \"start timer\"");
+        mInstructions1.setText(R.string.begin_timer);
 
         // Initialize the gesture detector and set the activity to listen to discrete gestures.
         mGestureDetector = new GestureDetector(this).setBaseListener(this).setFingerListener(this);
@@ -131,7 +131,7 @@ public class MainTimer extends Activity
         if(gesture==Gesture.TAP && Begin==false && Stop==false && taskNum==1){
             startTime = System.currentTimeMillis();
             handler.post(runnableCode);
-            mInstructions1.setText("Tap or say \"okay glass\" > \"Stop timer\"");
+            mInstructions1.setText(R.string.stop_timer);
             Begin = true;
             return true;
         }
@@ -141,7 +141,7 @@ public class MainTimer extends Activity
             totalTimeStr = String.valueOf(totalTime);
             mTimer1.setText(totalTimeStr);
             t1 = totalTimeStr;
-            mInstructions1.setText("Tap or say \"okay glass\" > \"next task\"");
+            mInstructions1.setText(R.string.next_task);
             Stop = true;
             return true;
         }
@@ -161,7 +161,7 @@ public class MainTimer extends Activity
 
             mTaskHeader.setText("Task "+String.valueOf(taskNum+1));
             mTimer.setText("00:00:00");
-            mInstructions.setText("Tap or say \"okay glass\" > \"start timer\"");
+            mInstructions.setText(R.string.begin_timer);
             mTime1.setText("T"+String.valueOf(taskNum)+" "+totalTimeStr);
             taskNum = taskNum+1;
             Begin = false;
@@ -171,7 +171,7 @@ public class MainTimer extends Activity
         else if(gesture==Gesture.TAP && Begin==false && Stop==false && taskNum >1 && taskNum<6){
             startTime = System.currentTimeMillis();
             handler.post(runnableCode);
-            mInstructions.setText("Tap or say \"okay glass\" > \"Stop timer\"");
+            mInstructions.setText(R.string.stop_timer);
             Begin = true;
             return true;
         }
@@ -180,14 +180,14 @@ public class MainTimer extends Activity
             totalTime = getTime(startTime);
             totalTimeStr = String.valueOf(totalTime);
             mTimer.setText(totalTimeStr);
-            mInstructions.setText("Tap or say \"okay glass\" > \"next task\"");
+            mInstructions.setText(R.string.next_task);
             Stop = true;
             return true;
         }
         else if (gesture==Gesture.TAP && Begin==true && Stop==true && taskNum >1 && taskNum<6){
-            mTaskHeader.setText("Task "+String.valueOf(taskNum));
+            mTaskHeader.setText("Task "+String.valueOf(taskNum+1));
             mTimer.setText("00:00:00");
-            mInstructions.setText("Tap or say \"okay glass\" > \"start timer\"");
+            mInstructions.setText(R.string.begin_timer);
 
             if (taskNum==2){
                 mTime2.setText("T"+String.valueOf(taskNum)+" "+totalTimeStr);
@@ -214,7 +214,7 @@ public class MainTimer extends Activity
         else if(gesture==Gesture.TAP && Begin==false && Stop==false && taskNum==6){
             startTime = System.currentTimeMillis();
             handler.post(runnableCode);
-            mInstructions.setText("Tap or say \"okay glass\" > \"Stop timer\"");
+            mInstructions.setText(R.string.stop_timer);
             Begin = true;
             return true;
         }
@@ -224,7 +224,7 @@ public class MainTimer extends Activity
             totalTimeStr = String.valueOf(totalTime);
             mTimer.setText(totalTimeStr);
             t6 = totalTimeStr;
-            mInstructions.setText("Tap or say \"okay glass\" > \"Show test results\"");
+            mInstructions.setText(R.string.show_results);
             Stop =true;
             return true;
         }
@@ -259,7 +259,12 @@ public class MainTimer extends Activity
             mTask4Result.setText(t4);
             mTask5Result.setText(t5);
             mTask6Result.setText(t6);
+            taskNum = taskNum+1;
 
+            return true;
+        }
+        else if(gesture == Gesture.TAP && taskNum==7){
+            startActivity(new Intent(MainTimer.this,TestSelect.class));
             return true;
         }
         else if(gesture==Gesture.SWIPE_DOWN){
@@ -290,7 +295,7 @@ public class MainTimer extends Activity
                 case R.id.start_task:
                    startTime = System.currentTimeMillis();
                    handler.post(runnableCode);
-                    mInstructions1.setText("Say \"okay glass\" > \"Stop timer\"");
+                    mInstructions1.setText(R.string.stop_timer);
                     Begin = true;
                    break;
                 case R.id.stop_task:
@@ -299,7 +304,7 @@ public class MainTimer extends Activity
                     totalTimeStr = String.valueOf(totalTime);
                     mTimer1.setText(totalTimeStr);
                     t1 = totalTimeStr;
-                    mInstructions1.setText("Say \"okay glass\" > \"next task\"");
+                    mInstructions1.setText(R.string.next_task);
                     Stop = true;
                     break;
                 case R.id.next_task:
@@ -318,7 +323,7 @@ public class MainTimer extends Activity
 
                     mTaskHeader.setText("Task "+String.valueOf(taskNum+1));
                     mTimer.setText("00:00:00");
-                    mInstructions.setText("Say \"okay glass\" > \"start timer\"");
+                    mInstructions.setText(R.string.begin_timer);
                     mTime1.setText("T"+String.valueOf(taskNum)+" "+totalTimeStr);
                     taskNum = taskNum+1;
                     Begin = false;
@@ -336,7 +341,7 @@ public class MainTimer extends Activity
                 case R.id.start_task:
                     startTime = System.currentTimeMillis();
                     handler.post(runnableCode);
-                    mInstructions.setText("Say \"okay glass\" > \"Stop timer\"");
+                    mInstructions.setText(R.string.stop_timer);
                     Begin = true;
                     break;
                 case R.id.stop_task:
@@ -344,13 +349,13 @@ public class MainTimer extends Activity
                     totalTime = getTime(startTime);
                     totalTimeStr = String.valueOf(totalTime);
                     mTimer.setText(totalTimeStr);
-                    mInstructions.setText("Say \"okay glass\" > \"next task\"");
+                    mInstructions.setText(R.string.next_task);
                     Stop = true;
                     break;
                 case R.id.next_task:
-                    mTaskHeader.setText("Task "+String.valueOf(taskNum));
+                    mTaskHeader.setText("Task "+String.valueOf(taskNum+1));
                     mTimer.setText("00:00:00");
-                    mInstructions.setText("Say \"okay glass\" > \"start timer\"");
+                    mInstructions.setText(R.string.begin_timer);
 
                     if (taskNum==2){
                         mTime2.setText("T"+String.valueOf(taskNum)+" "+totalTimeStr);
@@ -381,7 +386,7 @@ public class MainTimer extends Activity
                 case R.id.start_task:
                     startTime = System.currentTimeMillis();
                     handler.post(runnableCode);
-                    mInstructions.setText("Say \"okay glass\" > \"Stop timer\"");
+                    mInstructions.setText(R.string.stop_timer);
                     Begin=true;
                     break;
                 case R.id.stop_task:
@@ -390,7 +395,7 @@ public class MainTimer extends Activity
                     totalTimeStr = String.valueOf(totalTime);
                     mTimer.setText(totalTimeStr);
                     t6 = totalTimeStr;
-                    mInstructions.setText("Say \"okay glass\" > \"Show test results\"");
+                    mInstructions.setText(R.string.show_results);
                     Stop = true;
                     break;
                 case R.id.show_results:
@@ -427,6 +432,7 @@ public class MainTimer extends Activity
 
                     Begin = false;
                     Stop = false;
+                    taskNum = taskNum+1;
                     break;
 
 
