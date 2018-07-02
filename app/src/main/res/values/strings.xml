@@ -13,8 +13,6 @@
     <!--TaskVoice strings-->
     <string name="voice_menu_explanation">Voice menu demo - say \"okay glass\" to activate.</string>
 
-    <!--TaskCamera strings-->
-    <string name="camera_instructins">Camera demo - say \"okay glass\", then \"take a picture.\"</string>
 
 
     <!--TimerIntro strings-->
@@ -53,5 +51,13 @@
         >
         <font color='yellow'>\"SHOW TEST RESULTS\"</font>
         to show the overall results. </string>
+
+    <!-- Camera app strings-->
+    <string name="take_picture">
+        Camera Demo -- say
+        <font color='yellow'>\"OKAY GLASS\"</font>
+        >
+        <font color='yellow'>\"TAKE A PICTURE.\"</font>
+    </string>
 
 </resources>

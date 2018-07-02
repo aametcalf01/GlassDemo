@@ -49,7 +49,6 @@ public class TaskCamera extends Activity {
     @Override
     public boolean onCreatePanelMenu(int featureId, Menu menu) {
         if (featureId == WindowUtils.FEATURE_VOICE_COMMANDS) {
-            System.out.println("hello I'm here*****************");
             getMenuInflater().inflate(R.menu.camera_menu, menu);
             return true;
         }
@@ -63,7 +62,7 @@ public class TaskCamera extends Activity {
     private List<CardBuilder> createCards(Context context) {
         ArrayList<CardBuilder> cards = new ArrayList<CardBuilder>();
         CardBuilder card = new CardBuilder(context, CardBuilder.Layout.TEXT)
-                .setText(R.string.camera_instructins);
+                .setText(R.string.take_picture);
         cards.add(card);
         return cards;
     }
