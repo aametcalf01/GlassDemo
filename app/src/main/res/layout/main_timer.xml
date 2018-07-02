@@ -16,7 +16,7 @@
             android:id="@+id/TaskHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-        
+
         <TextView
             android:id="@+id/Timer"
             android:layout_width="wrap_content"
@@ -45,32 +45,38 @@
         <TextView
             android:id="@+id/Time1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textSize="24.0sp"/>
         <TextView
             android:id="@+id/Time2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/Time1"/>
+            android:layout_below="@+id/Time1"
+            android:textSize="24.0sp"/>
         <TextView
             android:id="@+id/Time3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/Time2"/>
+            android:layout_below="@+id/Time2"
+            android:textSize="24.0sp"/>
         <TextView
             android:id="@+id/Time4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/Time3"/>
+            android:layout_below="@+id/Time3"
+            android:textSize="24.0sp"/>
         <TextView
             android:id="@+id/Time5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/Time4"/>
+            android:layout_below="@+id/Time4"
+            android:textSize="24.0sp"/>
         <TextView
             android:id="@+id/Time6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/Time5"/>
+            android:layout_below="@+id/Time5"
+            android:textSize="24.0sp"/>
     </RelativeLayout>
 
     <LinearLayout

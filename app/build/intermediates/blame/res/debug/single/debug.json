@@ -16,6 +16,10 @@
         "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/drawable-hdpi/utility_vehicle.png"
     },
     {
+        "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/debug/layout_timer_results.xml.flat",
+        "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/layout/timer_results.xml"
+    },
+    {
         "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
@@ -28,12 +32,20 @@
         "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/drawable-hdpi/camera.png"
     },
     {
+        "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/debug/layout_main_timer1.xml.flat",
+        "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/layout/main_timer1.xml"
+    },
+    {
         "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/debug/drawable-hdpi_glass.png.flat",
         "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/drawable-hdpi/glass.png"
     },
     {
         "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/debug/drawable-hdpi_barcode.png.flat",
         "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/drawable-hdpi/barcode.png"
+    },
+    {
+        "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/debug/menu_task_start_stop_menu.xml.flat",
+        "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/menu/task_start_stop_menu.xml"
     },
     {
         "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/debug/xml_voice_trigger.xml.flat",
@@ -96,11 +108,11 @@
         "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/drawable-hdpi/ic_glass_logo.png"
     },
     {
-        "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/debug/drawable-hdpi_voice.png.flat",
-        "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/drawable-hdpi/voice.png"
-    },
-    {
         "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/debug/drawable-hdpi_vertical.png.flat",
         "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/drawable-hdpi/vertical.png"
+    },
+    {
+        "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/debug/drawable-hdpi_voice.png.flat",
+        "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/drawable-hdpi/voice.png"
     }
 ]

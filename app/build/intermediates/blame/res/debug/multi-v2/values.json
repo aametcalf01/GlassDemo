@@ -6,48 +6,52 @@
                 {
                     "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "72",
+                        "endOffsets": "124"
                     },
                     "to": {
-                        "startLines": "16",
+                        "startLines": "18",
                         "startColumns": "4",
-                        "startOffsets": "996",
+                        "startOffsets": "1083",
                         "endColumns": "65",
-                        "endOffsets": "1057"
+                        "endOffsets": "1144"
                     }
                 },
                 {
                     "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                        "startLines": "1,20,16,10,2,7,6,13",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "16,685,547,290,64,203,149,415",
+                        "endColumns": "47,97,105,94,58,55,53,100",
+                        "endOffsets": "59,778,648,380,118,254,198,511"
                     },
                     "to": {
-                        "startLines": "8,9,10,11,12,13,14,15",
+                        "startLines": "10,11,12,13,14,15,16,17",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "379,427,525,631,726,785,841,895",
+                        "startOffsets": "466,514,612,718,813,872,928,982",
                         "endColumns": "47,97,105,94,58,55,53,100",
-                        "endOffsets": "422,520,626,721,780,836,890,991"
+                        "endOffsets": "509,607,713,808,867,923,977,1078"
                     }
                 },
                 {
                     "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/values/dimens.xml",
                     "from": {
-                        "startLines": "-1,16,10,19,5,13",
-                        "startColumns": "-1,4,4,4,4,4",
-                        "startOffsets": "-1,737,472,861,181,609",
-                        "endColumns": "-1,54,55,60,48,59",
-                        "endOffsets": "-1,787,523,917,225,664"
+                        "startLines": "2,16,10,19,5,13,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,737,472,861,181,609,922,965",
+                        "endColumns": "42,54,55,60,48,59,42,43",
+                        "endOffsets": "93,787,523,917,225,664,960,1004"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,98,153,209,270,319",
-                        "endColumns": "42,54,55,60,48,59",
-                        "endOffsets": "93,148,204,265,314,374"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,98,153,209,270,319,379,422",
+                        "endColumns": "42,54,55,60,48,59,42,43",
+                        "endOffsets": "93,148,204,265,314,374,417,461"
                     }
                 }
             ]
