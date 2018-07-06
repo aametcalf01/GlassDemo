@@ -50,32 +50,31 @@ public class TaskVoice extends Activity {
     @Override
     public boolean onCreatePanelMenu(int featureId, Menu menu) {
         if (featureId == WindowUtils.FEATURE_VOICE_COMMANDS) {
-            System.out.println("hello I'm here*****************");
             getMenuInflater().inflate(R.menu.voice_menu, menu);
             return true;
         }
         // Good practice to pass through, for options menu.
         return super.onCreatePanelMenu(featureId, menu);
     }
-//    @Override
-//    public boolean onPreparePanel(int featureId, View view, Menu menu) {
-//        if (featureId == WindowUtils.FEATURE_VOICE_COMMANDS) {
-//            // Dynamically decides between enabling/disabling voice menu.
-//            return mVoiceMenuEnabled;
-//        }
-//        // Good practice to pass through, for options menu.
-//        return super.onPreparePanel(featureId, view, menu);
-//    }
+
 
     @Override
     public boolean onMenuItemSelected(int featureId, MenuItem item) {
         if (featureId == WindowUtils.FEATURE_VOICE_COMMANDS) {
             System.out.println("*********in onMenuItemSelect");
             switch (item.getItemId()) {
-                case R.id.menu_vehicles:            mPicture = 0; break;
-                case R.id.menu_utility:             mPicture = 1; break;
-                case R.id.menu_carrier:             mPicture = 2; break;
-                case R.id.menu_lifts:               mPicture = 3; break;
+                case R.id.menu_vehicles:
+                    mPicture = 0;
+                    break;
+                case R.id.menu_utility:
+                    mPicture = 1;
+                    break;
+                case R.id.menu_carrier:
+                    mPicture = 2;
+                    break;
+                case R.id.menu_lifts:
+                    mPicture = 3;
+                    break;
                 case R.id.menu_scissor:             mPicture = 4; break;
                 case R.id.menu_engine_powered_boom: mPicture = 5; break;
                 case R.id.menu_electric_boom:       mPicture = 6; break;

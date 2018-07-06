@@ -12,6 +12,10 @@
         "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/drawable-hdpi/osi_logo.png"
     },
     {
+        "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/debug/drawable-hdpi_osi_logo_icon.png.flat",
+        "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/drawable-hdpi/osi_logo_icon.png"
+    },
+    {
         "merged": "/Users/andymetcalf/Documents/glass/GlassDemo/app/build/intermediates/res/merged/debug/drawable-hdpi_utility_vehicle.png.flat",
         "source": "/Users/andymetcalf/Documents/glass/GlassDemo/app/src/main/res/drawable-hdpi/utility_vehicle.png"
     },

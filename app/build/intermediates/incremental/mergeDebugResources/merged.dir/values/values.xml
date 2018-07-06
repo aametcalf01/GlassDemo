@@ -42,7 +42,7 @@
         <font color="yellow">\"STOP TIMER\"</font>
         to stop timer.</string>
     <string name="take_picture">
-        Camera Demo -- say
+        Camera Demo: Say
         <font color="yellow">\"OKAY GLASS\"</font>
         >
         <font color="yellow">\"TAKE A PICTURE.\"</font>
@@ -51,6 +51,10 @@
     <string name="title_activity_main">Glass Demo</string>
     <string name="title_footnote">Tap to begin</string>
     <string name="title_text">Glass Demo App</string>
-    <string name="voice_menu_explanation">Voice menu demo - say \"okay glass\" to activate.</string>
+    <string name="voice_menu_explanation">Voice menu demo: Say
+        <font color="yellow">\"OKAY GLASS\"</font>
+        >
+        <font color="yellow">\"(MENU ITEM)\"</font>
+        to select a JLG product.</string>
     <style name="AppTheme" parent="android:Theme.DeviceDefault"/>
 </resources>

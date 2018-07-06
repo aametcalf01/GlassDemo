@@ -31,11 +31,12 @@ public final class R {
     public static final int ic_stop=0x7f020007;
     public static final int jlg=0x7f020008;
     public static final int osi_logo=0x7f020009;
-    public static final int scissor=0x7f02000a;
-    public static final int timer=0x7f02000b;
-    public static final int utility_vehicle=0x7f02000c;
-    public static final int vertical=0x7f02000d;
-    public static final int voice=0x7f02000e;
+    public static final int osi_logo_icon=0x7f02000a;
+    public static final int scissor=0x7f02000b;
+    public static final int timer=0x7f02000c;
+    public static final int utility_vehicle=0x7f02000d;
+    public static final int vertical=0x7f02000e;
+    public static final int voice=0x7f02000f;
   }
   public static final class id {
     public static final int Instructions=0x7f030000;
